@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(#ffdde1, #ee9ca7);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  color: #b30059;
+  font-size: 2.5em;
+}
+
+.main-photo {
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.buttons {
+  position: relative;
+  height: 150px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background-color: #cccccc;
+  position: absolute;
+}
+
+.event img {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
